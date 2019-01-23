@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; /*this only affects padding and border; meaning when adding padding it will add inside of the box and not increase the width; BUT it will increase the width when using margin*/
+  }
+
+body, html{
+  width: 100%;
+  height: 100%;
+	font-family: 'Lato';
+	color: #ff0844;
+}
+
+body {
+	background-color: #efefef;
+}
+
+
+/* background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%); */
+
+#home {
+		overflow: hidden;
+}
+
+.intro {
+    width: 45%;
+    height: 10%;
+    margin: 20% auto 0;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.assignments {
+    width: 45%;
+    height: 10%;
+		margin: 0 auto;
+		text-align: center;
+		align-items: center;
+}
+
+.assignments h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.assignments p, a {
+		padding-top: 2%;
+		text-decoration: underline;
+    font-size: 15px;
+		color: #ff0844;
+    font-weight: 400;
+}
+
+#assetshome {
+	margin-bottom: 5%;
+}
+
+.a1intro {
+    width: 80%;
+    height: 5%;
+		margin-top: 5%;
+		margin-left: 10%;
+		text-align: left;
+}
+
+.a1intro h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.assets {
+    width: 40%;
+    height: 100%;
+		margin-left: 10%;
+		text-align: left;
+}
+
+.assets img {
+	max-width: 150%;
+}
+
+.assets h1 {
+    font-size: 20px;
+    font-weight: 700;
+		padding-top: 5%;
+}
+
+.assets p, a {
+		padding: 5px 0 5px;
+		color:#303030;
+    font-size: 15px;
+    font-weight: 400;
+}
