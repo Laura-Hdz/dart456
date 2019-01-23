@@ -22,36 +22,31 @@ body {
 }
 
 .intro {
-    width: 45%;
-    height: 10%;
-    margin: 20% auto 0;
-    text-align: center;
+	width: 80%;
+	height: 5%;
+	margin-top: 5%;
+	margin-left: 10%;
+	text-align: left;
 }
 
 .intro h1 {
-    font-size: 40px;
-    font-weight: 700;
+  font-size: 40px;
+  font-weight: 700;
 }
 
 .assignments {
-    width: 45%;
-    height: 10%;
-		margin: 0 auto;
-		text-align: center;
-		align-items: center;
+  width: 45%;
+  height: 10%;
+	margin-top: 5%;
+	margin-left: 10%;
 }
 
-.assignments h1 {
-    font-size: 20px;
-    font-weight: 700;
-}
-
-.assignments p, a {
-		padding-top: 2%;
-		text-decoration: underline;
-    font-size: 15px;
-		color: #ff0844;
-    font-weight: 400;
+.assignments h1 a {
+  font-size: 20px;
+  font-weight: 400;
+	padding-top: 2%;
+	color: #ff0844;
+	text-decoration: none;
 }
 
 #assetshome {
