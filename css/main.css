@@ -172,6 +172,13 @@ body {
 		color: #ff0844;
 }
 
+.assetsassignment3 h2, a {
+	  font-size: 20px;
+	  font-weight: 700;
+		padding: 0 0 2% 0;
+		color: #ff0844;
+}
+
 .assetsassignment3 p {
 	  font-size: 18px;
 		line-height: 26px;
@@ -180,13 +187,50 @@ body {
 		padding: 0 0 5% 0;
 }
 
-/* .assetsassignment3 h2 a {
-	  font-size: 18px;
-	  font-weight: 400;
-		color: #ff0844;
-} */
-
 .assetsassignment3 img {
 		max-width: 100%;
+		padding: 0 0 0 0;
+}
+
+
+#assetsa4 {
+	padding-bottom: 5%;
+	overflow: hidden;
+	background-color: white;
+}
+
+.assetsassignment4 {
+    width: 50%;
+		text-align: left;
+		margin: 5% auto;
+}
+
+.assetsassignment4 h1, h1 a {
+	  font-size: 40px;
+		text-align: left;
+	  font-weight: 700;
+		padding: 0 0 20px 0;
+		color: #ff0844;
+}
+
+.assetsassignment4 h2, a {
+	  font-size: 20px;
+		text-align: left;
+	  font-weight: 700;
+		padding: 0 0 2% 0;
+		color: #ff0844;
+}
+
+.assetsassignment4 p {
+	  font-size: 18px;
+		line-height: 26px;
+		text-align: left;
+	  font-weight: 400;
+		color:#303030;
+		padding: 15px 0 15px 0;
+}
+
+.assetsassignment4 img {
+		max-width: 80%;
 		padding: 0 0 0 0;
 }
